@@ -1,3 +1,6 @@
+# Minor modification/combination of afowler and prose themes
+# requires: hg-prompt
+
 if [ $UID -eq 0 ]; then CARETCOLOR="red"; else CARETCOLOR="blue"; fi
 
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
